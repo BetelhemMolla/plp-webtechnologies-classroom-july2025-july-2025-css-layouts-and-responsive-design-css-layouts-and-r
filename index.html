@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Responsive multi-section webpage using Flexbox, Grid, and media queries." />
+  <title>Week 4 Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <h1>My Responsive Webpage</h1>
+    <p>Built with HTML5, Flexbox, and CSS Grid</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Grid Layout for Main Content -->
+  <main class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Sidebar</h2>
+      <p>This is the sidebar content with additional links or info.</p>
+    </aside>
+
+    <!-- Main Content Area -->
+    <section class="content">
+      <h2 id="about">About</h2>
+      <p>
+        This page demonstrates modern CSS layout techniques: Flexbox for 1D alignment 
+        and Grid for 2D layouts. Resize the browser window to see how the design adapts.
+      </p>
+
+      <h2 id="services">Services</h2>
+      <div class="card-container">
+        <div class="card">
+          <h3>Web Design</h3>
+          <p>Creating clean, modern, and responsive web layouts.</p>
+        </div>
+        <div class="card">
+          <h3>Development</h3>
+          <p>Building scalable and maintainable web applications.</p>
+        </div>
+        <div class="card">
+          <h3>Consulting</h3>
+          <p>Guidance on best practices for digital projects.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <p>&copy; 2025 Week 4 Assignment | Contact: <a href="mailto:info@example.com">info@example.com</a></p>
+  </footer>
+</body>
+</html>
